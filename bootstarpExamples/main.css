@@ -1,0 +1,49 @@
+.back_yellow{
+    background-color:yellow;
+
+}
+.back_red{
+    background-color:red;
+}
+.change_font_size{
+    font-size:20px;
+}
+
+/*if the screen size is greater than 500px will be executed*/
+@media (min-width:500px) {
+    
+}
+
+/*if the screen size is less than or equal to 500px will be executed*/
+@media (max-width:500px) {
+    .change_font_size{
+        font-size:8px;
+    }
+}
+/*
+* {
+    border:1px solid blue;
+}
+*/
+.has-bottom{
+    margin-bottom:50px;
+}
+
+.my-thumb{
+    width:100%;
+}
+
+iframe{
+    width:100%;
+    height:auto;
+}
+
+.video-margin{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.social_media{
+    width:100px;
+    margin:auto;
+}
