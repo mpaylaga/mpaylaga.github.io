@@ -6,29 +6,141 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/fontawesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="main.css">
-    
     <title>Document</title>
 </head>
+<!--Check out https://getbootstrap.com/docs/3.3/css -->
 
 <body>
     <div class="container">
-
         <div class="row">
-            <div class="col-md-1 back_yellow">
-                this is div 1
+            <div class="col-sm-12">
+                <div class="jumbotron">
+                    <!--<img class="my-banner-pic" src="BannerPic.jpg" alt="">-->
+                    <h1>Mark Gabriel Paylaga</h1>
+                    <p class="has-bottom">My Profile Page</p>
+                    <p>
+                        <a href="https://www.facebook.com/mpaylaga" class="btn btn-primary">Learn More</a>
+                    </p>
+                </div>
             </div>
-            <div class="col-md-8 back_red">
-                this is div 2
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                <!--Make image same as your div by making my-thumb width 100%-->
+                <img class="my-thumb" src="Me1.jpg" alt="">
             </div>
+            <div class="col-sm-4">
+                <img class="my-thumb" src="Me2.jpg" alt="">
+            </div>
+            <div class="col-sm-4">
+                <img class="my-thumb" src="Me3.jpg" alt="">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="video-margin embed-responsive embed-responsive-16by9">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/bNq59Pqxnwo" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6">
+                <form action="" method="">
+                    <div class="form-group">
+                        <label for="userName">Your Name</label>
+                        <input type="text" class="form-control" id="username" placeholder="Input Your Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="userEmail">Your Emails</label>
+                        <input type="text" class="form-control" id="userEmail" placeholder="Input Your Email">
+                    </div>
+                    <div class="form-group">
+                        <label for="mySelect">Select:</label>
+                        <select id="mySelect" class="form-control">
+                            <option value="mr">Mr.</option>
+                            <option value="mrs">Mrs.</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" value="Submit" class="btn btn-success">
+                    </div>
+                </form>
+            </div>
+            <div class="col-sm-6">
+                <h2>About Me</h2>
+                <p>I'm a simple guy who loves to play badminton, tennis and the piano during his spare time. I'm a software developer by profession and live in Singapore since 2009.
+                    I also like to travel with friends and explore different places.  
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <h3>Free Time</h3>
+                <!--table-striped, table-hover, table-bordered-->
+                <table class="table table-striped">
+                    <tr>
+                        <th>
+                            Day
+                        </th>
+                        <th>
+                            Hours
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>
+                            Monday - Friday
+                        </td>
+                        <td>
+                            6pm - 10pm
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Saturday - Sunday
+                        </td>
+                        <td>
+                            9am - 9pm
+                        </td>
+
+                    </tr>
+                </table>
+            </div>
+            <div class="col-md-4">
+                <div class="embed-responsive embed-responsive-4by3">
+                    <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.578217213665!2d103.84637331427538!3d1.4285689989581298!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da14433d6e624d%3A0xb024ab92d1d2e453!2s393+Yishun+Ave+6%2C+Singapore+760393!5e0!3m2!1sen!2ssg!4v1506758374191"
+                        frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <span class="glyphicon glyphicon-map-marker"><a href="https://www.google.com.sg/maps/place/393+Yishun+Ave+6,+Block+393,+Singapore+760393/@1.4285807,103.8463709,17z/data=!3m1!4b1!4m5!3m4!1s0x31da14433d3cf1ab:0xae1689cdee5cf356!8m2!3d1.4285536!4d103.8485727?hl=en">&nbspMy Home</a></span>
+                    </li>
+                    <li class="list-group-item">
+                        <span class="glyphicon glyphicon-map-marker"><a href="https://www.google.com.sg/maps/place/Robert+Bosch+(South+East+Asia)+Pte+Ltd/@1.3476035,103.8390401,17z/data=!3m1!4b1!4m5!3m4!1s0x31da173f04ee8211:0x9b34199f6689444b!8m2!3d1.3476035!4d103.8412288?hl=en">&nbspMy Work</a></span>
+                    </li>
+
+                    <li class="list-group-item">
+                        <span class="glyphicon glyphicon-map-marker"><a href="https://www.google.com.sg/maps/place/JTC+Launchpad/@1.2974124,103.7853151,17z/data=!3m1!4b1!4m5!3m4!1s0x31da1a4fdcdcb793:0x560828fd88f7aa6!8m2!3d1.2974124!4d103.7875038?hl=en">&nbspMy School</a></span>
+                    </li>
+                    
+                </ul>
+            </div>
+
         </div>
 
         <div class="row">
-            <div class="col-sm-12 change_font_size">
-                this is div 3
-            </div>
+            <div class="col-md-12 text-center">
+                    <ul class="list-inline">
+                            <li><a href="https://www.facebook.com/mpaylaga"><i class="fa fa-facebook fa-2x"></i></a></li>
+                            <li><a href="https://www.instagram.com"><i class="fa fa-instagram fa-2x"></i></a></li>
+                            <li><a href="https://www.snapchat.com"><i class="fa fa-snapchat fa-2x"></i></a></li>
+                            <li><a href="https://www.google.com"><i class="fa fa-google fa-2x"></i></a></li>
+                        </ul>
+                    </div>
         </div>
-
     </div>
 </body>
 
